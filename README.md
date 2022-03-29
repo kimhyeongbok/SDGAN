@@ -31,7 +31,7 @@ We provided an example of our dataset that contains 5 identity folders from cele
 dataset/celeba/legit_indices.npy
 ````
 
-You can download pre-trained model [here (google drive)](https://drive.google.com/file/d/1j5iT-SvvbC-JRy7qvY-eEP4sLzvoh8Ut/view?usp=sharing).
+You can download pre-trained model [here (google drive)](https://drive.google.com/drive/folders/1RcIntjkg6PgsijBilNLUyo17zfs7ERei?usp=sharing).
 
 
 We provide example of inference code in test.py file:
