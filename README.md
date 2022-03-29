@@ -1,6 +1,6 @@
-# CIAGAN: Conditional Identity Anonymization Generative Adversarial Networks
+# SDGAN: Semantic-aware De-Identity Generative Adversarial Networks for Identity Anonymization
  
-Official PyTorch implementation of [CIAGAN Conditional Identity Anonymization Generative Adversarial Networks](http://openaccess.thecvf.com/content_CVPR_2020/papers/Maximov_CIAGAN_Conditional_Identity_Anonymization_Generative_Adversarial_Networks_CVPR_2020_paper.pdf) published at Conference on Computer Vision and Pattern Recognition (CVPR) 2020.
+Official PyTorch implementation of SDGAN
 
 ## Installation
 
@@ -8,7 +8,7 @@ Please download the code:
 
 To use our code, first download the repository:
 ````
-git clone https://github.com/dvl-tum/ciagan.git
+git clone https://github.com/kimhyeongbok/SDGAN.git
 ````
 
 To install the dependencies:
@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 ## Training
 
-In order to train a CIAGAN model, run the following command:
+In order to train a SDGAN model, run the following command:
 
 ````
 python run_training.py
@@ -53,11 +53,4 @@ python process_data.py --input [path to a directory with raw data] --output [pat
 If you find this code useful, please consider citing the following paper:
 
 ````
-@InProceedings{Maximov_2020_CVPR,
-author = {Maximov, Maxim and Elezi, Ismail and Leal-Taixe, Laura},
-title = {CIAGAN: Conditional Identity Anonymization Generative Adversarial Networks},
-booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2020}
-}
 ````
