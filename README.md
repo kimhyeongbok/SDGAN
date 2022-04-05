@@ -1,5 +1,10 @@
-# SDGAN: Semantic-aware De-Identity Generative Adversarial Networks for Identity Anonymization
+# SDGAN: Semantic-aware De-identification Generative Adversarial Networks for Identity Anonymization
  
+**Our research is currently under review.
+
+We will officially open the paper after it is published.**
+
+
 Official PyTorch implementation of SDGAN
 
 ## Installation
