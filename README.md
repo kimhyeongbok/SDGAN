@@ -1,6 +1,8 @@
 # SDGAN: Semantic-aware De-identification Generative Adversarial Networks for Identity Anonymization
 
-Our research has experimented on various angles, occlusion, facial expressions, etc.
+Our research has experimented on various angles, occlusion, facial expressions, gender, ages, skin colors etc.
+
+To the best of our knowledge, our study is an experimental study case on the most diverse conditions.
 
 <p align="center"> <b>Front Face Images
 <p align="center"><img src="https://user-images.githubusercontent.com/41537576/165922091-0b3d52c9-b960-435f-b4cb-27df9bd49b6b.png" width="700" height="370">
