@@ -5,12 +5,19 @@
 
 We will officially open this Github after it is published.**
 
+
 <img src="https://user-images.githubusercontent.com/41537576/165922091-0b3d52c9-b960-435f-b4cb-27df9bd49b6b.png" width="700" height="370">
+
+
+<img src="https://user-images.githubusercontent.com/41537576/165922457-f74b7a77-e2c1-4af7-9338-8ef6e17f53be.png" width="700" height="370">
+
+
 
 Official PyTorch implementation of SDGAN!
 
 
 ## Installation
+
 
 Please download the code:
 
