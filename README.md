@@ -8,6 +8,7 @@ We will officially open this Github after it is published.**
 <p align="center"><img src="https://user-images.githubusercontent.com/41537576/165922091-0b3d52c9-b960-435f-b4cb-27df9bd49b6b.png" width="700" height="370">
 <p align="center"> <b>Side Face Images
 <p align="center"><img src="https://user-images.githubusercontent.com/41537576/165922457-f74b7a77-e2c1-4af7-9338-8ef6e17f53be.png" width="700" height="370">
+<p align="center"> <b>Occlusion Face Images
 <p align="center"><img src="https://user-images.githubusercontent.com/41537576/165922755-de4f8b34-a45a-401a-aaa6-3382886e39d2.png" width="700" height="370">
 
 Official PyTorch implementation of SDGAN!
