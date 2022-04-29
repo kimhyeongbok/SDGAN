@@ -1,10 +1,6 @@
 # SDGAN: Semantic-aware De-identification Generative Adversarial Networks for Identity Anonymization
 
-Our study was tested on angles, occlusion, facial expressions, etc.
-
-**Our research is currently under review.
-We will officially open this Github after it is published.**
-
+Our research has experimented on various angles, occlusion, facial expressions, etc.
 
 <p align="center"> <b>Front Face Images
 <p align="center"><img src="https://user-images.githubusercontent.com/41537576/165922091-0b3d52c9-b960-435f-b4cb-27df9bd49b6b.png" width="700" height="370">
@@ -13,6 +9,9 @@ We will officially open this Github after it is published.**
 <p align="center"> <b>Occlusion Face Images
 <p align="center"><img src="https://user-images.githubusercontent.com/41537576/165922755-de4f8b34-a45a-401a-aaa6-3382886e39d2.png" width="700" height="370">
 
+**Our research is currently under review.
+We will officially open this Github after it is published.**
+  
 ## Installation
 
 
