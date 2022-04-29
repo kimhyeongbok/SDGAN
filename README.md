@@ -5,8 +5,10 @@
 
 We will officially open this Github after it is published.**
 
+[f5](https://user-images.githubusercontent.com/41537576/165922091-0b3d52c9-b960-435f-b4cb-27df9bd49b6b.png)
 
-Official PyTorch implementation of SDGAN
+Official PyTorch implementation of SDGAN!
+
 
 ## Installation
 
