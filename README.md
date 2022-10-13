@@ -11,8 +11,7 @@ To the best of our knowledge, our research has been tested under the most divers
 <p align="center"> <b>Occlusion Face Images
 <p align="center"><img src="https://user-images.githubusercontent.com/41537576/165922755-de4f8b34-a45a-401a-aaa6-3382886e39d2.png" width="700" height="370">
 
-**Our research is currently under review.
-We will officially open this Github after it is published.**
+** Now, we are preparing to share the code. **
   
 ## Installation
 
