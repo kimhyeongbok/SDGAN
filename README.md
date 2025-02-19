@@ -37,10 +37,14 @@ pip install -r requirements.txt
 If you find this code useful, please consider citing the following paper:
 
 ````
-@article{kim2022SDGAN,
+@article{kim2023semantic,
   title={Semantic-aware deidentification generative adversarial networks for identity anonymization},
-  author={Hyeongbok Kim, Zhiqi Pang, Lingling Zhao, Xiaohong Su and Jin Suk Lee},
+  author={Kim, Hyeongbok and Pang, Zhiqi and Zhao, Lingling and Su, Xiaohong and Lee, Jin Suk},
   journal={Multimedia Tools and Applications},
-  year={2022}
+  volume={82},
+  number={10},
+  pages={15535--15551},
+  year={2023},
+  publisher={Springer}
 }
 ````
