@@ -1,7 +1,8 @@
 # SDGAN: Semantic-aware De-identification Generative Adversarial Networks for Identity Anonymization
 
 [![Paper](https://img.shields.io/badge/Paper-Open_Access-green?style=for-the-badge&logo=adobeacrobatreader)](https://link.springer.com/article/10.1007/s11042-022-13917-6)
-<p align="center"><img src="https://user-images.githubusercontent.com/41537576/165922091-0b3d52c9-b960-435f-b4cb-27df9bd49b6b.png">
+
+![main_structure Image](img/f1.png)
 
 Abstract
 ---
