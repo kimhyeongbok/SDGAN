@@ -1,5 +1,11 @@
 # SDGAN: Semantic-aware De-identification Generative Adversarial Networks for Identity Anonymization
 
+Abstract
+---
+Privacy protection in the computer vision field has attracted increasing attention. Generative adversarial network-based methods have been explored for identity anonymization, but they do not take into consideration semantic information of images, which may result in unrealistic or flawed facial results. In this paper, we propose a Semantic-aware De-identification Generative Adversarial Network (SDGAN) model for identity anonymization. To retain the facial expression effectively, we extract the facial semantic image using the edge-aware graph representation network to constraint the position, shape and relationship of generated facial key features. Then the semantic image is injected into the generator together with the randomly selected identity information for de-Identification. To ensure the generation quality and realistic-looking results, we adopt the SPADE architecture to improve the generation ability of conditional GAN. Meanwhile, we design a hybrid identity discriminator composed of an image quality analysis module, a VGG-based perceptual loss function, and a contrastive identity loss to enhance both the generation quality and ID anonymization. A comparison with the state-of-the-art baselines demonstrates that our model achieves significantly improved de-identification (De-ID) performance and provides more reliable and realistic-looking generated faces. 
+
+---
+
 Our research has experimented on various angles, occlusion, facial expressions, gender, ages, skin colors etc.
 
 To the best of our knowledge, our research has been tested under the most diverse conditions.
