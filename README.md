@@ -7,7 +7,6 @@ Privacy protection in the computer vision field has attracted increasing attenti
 ---
 
 Our research has experimented on various angles, occlusion, facial expressions, gender, ages, skin colors etc.
-
 To the best of our knowledge, our research has been tested under the most diverse conditions.
 
 <p align="center"> <b>Front Face Images
