@@ -4,8 +4,8 @@ import sys
 from unittest import result
 import time
 
-sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__)))) # 현재 경로를 알아내어 상위폴더를 참조
-# sys.path.append('C:/Users/rnd/PycharmProjects/SD')    # 절대 경로를 바로 하드 코딩하는 방식
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__)))) 
+# sys.path.append('C:/Users/rnd/PycharmProjects/SD')  
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 # os.environ["CUDA_VISIBLE_DEVICES"] = '0'
@@ -49,9 +49,9 @@ def getFilePathList(file_dir):
 
 def get_files_list(file_dir, postfix=None):
     '''
-    获得file_dir目录下，后缀名为postfix所有文件列表，包括子目录
+    
     :param file_dir:
-    :param postfix: ['*.jpg','*.png'],postfix=None表示全部文件
+    :param postfix: ['*.jpg','*.png'],postfix=None
     :return:
     '''
     print('inner function : get file list')
@@ -65,7 +65,7 @@ def get_files_list(file_dir, postfix=None):
         postfix = [p.split('.')[-1] for p in postfix]
         print(filePath_list)
         for file in filePath_list:
-            basename = os.path.basename(file)  # 获得路径下的文件名
+            basename = os.path.basename(file)  
             postfix_name = basename.split('.')[-1]
             if postfix_name in postfix:
                 file_list.append(file)
