@@ -4,8 +4,8 @@ import sys
 from unittest import result
 import time
 
-# sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__)))) # 현재 경로를 알아내어 상위폴더를 참조
-sys.path.append('./source')     # 하위 경로의 EAGRNet 참조
+# sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__)))) 
+sys.path.append('./source')    
 
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 # os.environ["CUDA_VISIBLE_DEVICES"] = '0'
@@ -36,7 +36,6 @@ EAGRNet_num_classes = 11
 infer_time = []
 def getFilePathList(file_dir):
     '''
-    获取file_dir目录下，所有文本路径，包括子目录文件
     :param rootDir:
     :return:
     '''
@@ -48,9 +47,8 @@ def getFilePathList(file_dir):
 
 def get_files_list(file_dir, postfix=None):
     '''
-    获得file_dir目录下，后缀名为postfix所有文件列表，包括子目录
     :param file_dir:
-    :param postfix: ['*.jpg','*.png'],postfix=None表示全部文件
+    :param postfix: ['*.jpg','*.png'],postfix=None
     :return:
     '''
     print('inner function : get file list')
@@ -64,7 +62,7 @@ def get_files_list(file_dir, postfix=None):
         postfix = [p.split('.')[-1] for p in postfix]
         print(filePath_list)
         for file in filePath_list:
-            basename = os.path.basename(file)  # 获得路径下的文件名
+            basename = os.path.basename(file)
             postfix_name = basename.split('.')[-1]
             if postfix_name in postfix:
                 file_list.append(file)
@@ -303,7 +301,7 @@ class GAN_Generator():
         output_id = (int(im_ind.cpu())+1)%num_classes
         print(output_id)
         hidden_feature_path = join('./CeleBA/clr/', str(output_id))
-        # hidden_feature_path = join('/home/junjie/DeIDVideo/SemanticImageSynthesis/ciagan_semantic/CeleBA/clr/',str(output_id))
+        # hidden_feature_path = join('/home/aaa/DeIDVideo/SemanticImageSynthesis/ciagan_semantic/CeleBA/clr/',str(output_id))
         # all_hidden_feature_names = glob.glob(hidden_feature_path+'/*feature_refined.npy')
         all_hidden_feature_names = glob.glob(hidden_feature_path+'/*feature.npy')
         hidden_feature = torch.from_numpy(np.load( all_hidden_feature_names[0] )).float().cuda()
@@ -474,7 +472,7 @@ def run_inference(img_path,out_dir,dlib_detector,dlib_predictor,EAGR_model,featu
             img_out.save(org_path)
             # end = time.time()
             # infer_time.append(end - start)
-            # img_out.save('/home/qiuyang/anonymous/ciagan_semantic/source/video/test_result/img_gan.jpg')
+            # img_out.save('/home/aaa/anonymous/ciagan_semantic/source/video/test_result/img_gan.jpg')
 
             # id = img_path.split('/')[-2]
             # if not os.path.exists(join(out_dir,id)):
@@ -582,8 +580,8 @@ if __name__ == '__main__':
     #     total_time += i
     print("Done.")
     # print("FPS: %f"%(1.0/(total_time/len(infer_time))))
-    # img_path = '/home/qiuyang/anonymous/ciagan_semantic/CeleBAT/orig/1/182757.jpg'
-    # out_path = '/home/qiuyang/anonymous/ciagan_semantic/source/video/test_result'
+    # img_path = '/home/aaa/anonymous/ciagan_semantic/CeleBAT/orig/1/182757.jpg'
+    # out_path = '/home/aaa/anonymous/ciagan_semantic/source/video/test_result'
     # # test(img_path,out_path,dlib_detector,dlib_predictor,EAGR_model,feature_model,Generator,random_ind=False)
     # prepare_traindata(EAGR_model)
 
