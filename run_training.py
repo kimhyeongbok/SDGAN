@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append('./source')     # 하위 경로 참조
+sys.path.append('./source')     
 from train import ciagan_exp
 
 r = ciagan_exp.run(config_updates={
